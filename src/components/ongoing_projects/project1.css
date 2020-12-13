@@ -1,0 +1,21 @@
+.project{
+    color:red !important;
+    text-align: center;
+}
+.project1{
+    flex-grow:1 !important;
+    margin-top: 20px !important;
+    background-color: cornsilk !important;
+    width: 100% !important;
+    margin: 0px !important;
+    margin-top: 20px !important;
+    align-items: center!important;
+    position: relative !important;
+    column-gap: 30px !important;
+
+}
+.blueprint{
+    height: 20px !important;
+    width: 20px !important;
+    margin-right: 10px ;
+}

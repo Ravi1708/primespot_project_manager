@@ -1,0 +1,84 @@
+.title {
+    display: flex;
+    flex-direction: row;
+    flex-grow:1 !important;
+    background-color: cornsilk !important;
+    width: 100% !important;
+    margin: 0px !important;
+    margin-top: 10px !important;
+    align-items: center!important;
+    position: relative !important;
+    column-gap: 20px !important;
+    border-bottom: 2px solid brown;
+
+}
+.titleElements {
+    text-align: center;
+    padding: 2px;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    flex-grow:1 !important;
+    background-color: cornsilk !important;
+    width: 100% !important;
+    margin: 0px !important;
+    align-items: center!important;
+    position: relative !important;
+    column-gap: 20px !important;
+    padding-top: 5px;
+
+}
+
+
+
+
+.plus{
+    color: cornsilk !important;
+    background-color: #d91b5c !important;
+    margin :fit-content;
+    font-size: 15px !important;
+    
+}
+
+.badge {
+    margin: auto !important;
+    font-size: 15px !important;
+}
+
+.addpopup{
+    margin : auto;
+}
+popup {
+    display : flex !important;
+    color : red;
+    flex-direction : column;
+    margin : 20px !important
+}
+
+.popup-content {
+    margin: auto;
+    background: rgb(255, 255, 255);
+    width: 50%;
+    padding: 5px;
+}
+.popup-arrow {
+    color: rgb(255, 255, 255);
+}
+  [role='tooltip'].popup-content {
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
+  }
+  
+  .popup-overlay {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  [data-popup='tooltip'].popup-overlay {
+    background: transparent;
+  }
+
+.popup {
+    background-color: red !important;
+}
+

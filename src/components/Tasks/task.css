@@ -1,0 +1,51 @@
+.dropdown{
+
+    margin-bottom: 20px !important;
+    border: black !important;
+    height: 10% !important;
+    width: 220px !important;
+
+}
+.content {
+
+    height: 300px !important;
+    background-color:cornsilk !important;
+    padding: 20px !important;
+    background-origin: shadow 1px !important;
+    
+}
+.card{
+    height: 60px !important;
+    width: 100px !important;
+    margin-bottom: 10px !important;
+    background-color:aquamarine !important;
+    
+}
+.card > h3{
+    text-align: center !important;
+    
+
+}
+
+.textbox{
+    max-width: 50px !important;
+}
+
+.tasktitle {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    column-gap: 10px;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+.task {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    column-gap: 10px;
+    justify-content: center;
+}
+
+

@@ -1,0 +1,76 @@
+.head {
+    background-color: blue;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
+}
+.head > h3 {
+    color: white;
+    padding: 7px;
+    margin: auto;
+    
+}
+.loginBtn {
+    color: white !important;
+    height: fit-content;
+    width: fit-content !important;
+    align-items: center !important;
+    margin-top: 10px !important;
+    margin-right: 50px !important;
+    margin-top: 40px !important;
+
+}
+.logo {
+    margin-left:-30px;
+    margin-right: 20px;
+    max-height: 150px;
+    width: auto;
+}
+
+.total_body {
+    min-height: 500px;
+}
+
+.menu {
+    min-height: 500px;
+    background-color: powderblue !important;
+}
+.menu > h2 {
+    text-align: center;
+}
+.button1 {
+    font-weight:bolder !important;
+    background-color: rgb(236, 221, 12) !important;
+    margin: 10px !important;
+    height: 90px !important;
+}
+.button2 {
+    font-weight:bolder !important;
+    background-color: rgb(155, 223, 53) !important;
+    margin: 10px !important;
+    height: 90px !important;
+}
+.button3 {
+    font-weight:bolder !important;
+    background-color: turquoise !important;
+    margin: 10px !important;
+    height: 90px !important;
+}
+.button4 {
+    font-weight:bolder !important;
+    background-color:tomato !important;
+    margin: 10px !important;
+    height: 90px !important;
+}
+
+.main-content {
+    min-height: 500px;
+    background-color:wheat !important;
+    padding: 20px !important;
+    margin-top: 20px !important;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
